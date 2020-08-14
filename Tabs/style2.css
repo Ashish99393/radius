@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Tamma 2", cursive;
+  background-color:#F8EFBA;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.head {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: #e74c3c;
+}
+.radius {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+
+.icon {
+  display: inline-flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  color: white;
+}
+.container {
+  display: flex;
+  width: 90vw;
+  height: 102vh;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.5);
+  border-radius: 6px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pic img {
+  width: 200px;
+  height: 300px;
+  margin: 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px #6f7475;
+}
+.pic {
+  width: 50%;
+  height: 45vh;
+}
+.info {
+  width: 50%;
+  height: 45vh;
+}
+#box {
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  background-color: white;
+  margin: 10px;
+  margin-left: -18px;
+  margin-top: 25px;
+}
+.info ul li {
+  list-style: none;
+}
+
+.info ul li p i {
+  padding: 9px;
+  color: #e74c3c;
+}
+.line {
+  width: 100%;
+  height: 60vh;
+  margin: 21px;
+  margin-top: 0pc;
+}
+.line p b i {
+  padding-right: 9px;
+  color: #e74c3c;
+}
+.skills-bar {
+  background-color: rgba(221, 117, 117, 0.5);
+  border-radius: 16px;
+}
+
+.progress-bar {
+  padding: 0.05em 16px;
+  border-radius: 16px;
+  text-align: left;
+  color: #fff;
+  background-color: #e74c3c;
+}
+.foot{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: #e74c3c;
+  margin-top: 8px;
+  padding-bottom: 16px;
+}
+.links{
+  display: inline-flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  color: white;
+}
+.social{
+  display: inline-flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  color: #fff;
+}
+.icon p{
+  margin: 15px;
+}
+.kit1:hover{
+  color: blue;
+}
+.kit2:hover{
+  color: rgb(58, 179, 235);
+}
+.kit3:hover{
+  color: rgb(175, 71, 135);
+}
+.kit4:hover{
+  color: rgb(95, 238, 119);
+}
