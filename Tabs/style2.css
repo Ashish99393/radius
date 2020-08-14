@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Baloo Tamma 2", cursive;
-  background-color:#F8EFBA;
+  background-color: #f8efba;
   flex-direction: row;
   flex-wrap: nowrap;
 }
@@ -32,7 +32,7 @@ body {
 .container {
   display: flex;
   width: 90vw;
-  height: 102vh;
+  height: auto;
   background-color: #fff;
   margin: auto;
   margin-top: 10px;
@@ -75,27 +75,31 @@ body {
 }
 .line {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   margin: 21px;
-  margin-top: 0pc;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .line p b i {
   padding-right: 9px;
   color: #e74c3c;
 }
-.skills-bar {
-  background-color: rgba(221, 117, 117, 0.5);
-  border-radius: 16px;
+.about {
+  width: 100%;
+  height: auto;
+  margin: 21px;
 }
-
-.progress-bar {
-  padding: 0.05em 16px;
-  border-radius: 16px;
-  text-align: left;
-  color: #fff;
+.copy {
+  width: 100%;
+  height: auto;
   background-color: #e74c3c;
+  margin-top: -30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 0 6px 6px;
+  padding: 0;
 }
-.foot{
+.foot {
   display: flex;
   width: 100%;
   height: 10vh;
@@ -103,7 +107,7 @@ body {
   margin-top: 8px;
   padding-bottom: 16px;
 }
-.links{
+.links {
   display: inline-flex;
   height: 100%;
   justify-content: center;
@@ -111,7 +115,7 @@ body {
   width: 30%;
   color: white;
 }
-.social{
+.social {
   display: inline-flex;
   height: 100%;
   justify-content: center;
@@ -119,18 +123,18 @@ body {
   width: 70%;
   color: #fff;
 }
-.icon p{
+.icon p {
   margin: 15px;
 }
-.kit1:hover{
+.kit1:hover {
   color: blue;
 }
-.kit2:hover{
+.kit2:hover {
   color: rgb(58, 179, 235);
 }
-.kit3:hover{
+.kit3:hover {
   color: rgb(175, 71, 135);
 }
-.kit4:hover{
+.kit4:hover {
   color: rgb(95, 238, 119);
 }
